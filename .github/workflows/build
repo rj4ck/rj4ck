@@ -1,14 +1,8 @@
-name: Build Astro Project
+name: Deploy Astro site to Pages
 
 on:
   push:
-    branches:
-      - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
+    branches: ["master"]
 
 jobs:
   build:
